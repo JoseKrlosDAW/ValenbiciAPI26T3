@@ -29,9 +29,9 @@ public class ConexionBDD extends JFrame {
     private static int numEst = 3;
 
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String USER = "test";
-    private static final String PASS = "";
-    private static final String URL = "jdbc:mysql://localhost:3306/valenbicibd";
+    private static final String USER = "admin";
+    private static final String PASS = "123456Ab$";
+    private static final String URL = "jdbc:mysql://databasedmp.cjooqhqmkrsb.us-east-1.rds.amazonaws.com:3306/valenbicibd";
 
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {

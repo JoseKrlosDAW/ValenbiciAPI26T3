@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f1fb;
+    color: #2d2438;
+}
+
+.contenedor {
+    width: 92%;
+    max-width: 1200px;
+    margin: 35px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(75, 46, 131, 0.18);
+    border-top: 10px solid #4b2e83;
+}
+
+h1 {
+    text-align: center;
+    color: #4b2e83;
+    margin-bottom: 10px;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #6b5f78;
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ded6ef;
+    padding: 11px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #4b2e83;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f3ff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #eadfff;
+}
+
+td:first-child {
+    text-align: left;
+    font-weight: 500;
+}
+
+.boton-contenedor {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.boton-mapa {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #4b2e83;
+    text-decoration: none;
+    padding: 13px 34px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid #ded6ef;
+    box-shadow: 0 4px 12px rgba(109, 74, 255, 0.35);
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.boton-mapa:hover {
+    background-color: #4b2e83;
+    color: #ffffff;
+    border-color: #4b2e83;
+    box-shadow: 0 6px 16px rgba(75, 46, 131, 0.35);
+}
+
+.mensaje {
+    text-align: center;
+    color: #4b2e83;
+    font-weight: bold;
+}
